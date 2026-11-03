@@ -6,4 +6,5 @@
 - Add a Settings section with layout selection, native/off mode, a More toggle, individual entry visibility, and default restoration.
 - Preserve native handlers, pin preferences, branding, New Session, and workspace/session browsing.
 - Keep collapsed and very narrow sidebars native; update dynamic and localized panel entries.
+- 首次发布到 npm（npm 与 GitHub 双通道）。
 - Validate and persist local preferences, handle unavailable storage, synchronize same-origin windows, and restore all DOM markers on disposal.

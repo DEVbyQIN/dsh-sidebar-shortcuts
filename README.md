@@ -27,18 +27,19 @@
 在 DSH 中打开 **插件 → 添加插件 → 安装已有插件**，输入：
 
 ```text
-github:DEVbyQIN/dsh-sidebar-shortcuts
+dsh-sidebar-shortcuts
 ```
 
-安装并启用后重新加载界面。`desktop` profile 由 Electron 独占管理，请通过应用内插件管理器安装。
+也可以粘贴 GitHub 地址 `github:DEVbyQIN/dsh-sidebar-shortcuts`。安装并启用后重新加载界面。`desktop` profile 由 Electron 独占管理，请通过应用内插件管理器安装。
 
 ### Web 版
 
 ```sh
+dsh plugin --profile web add dsh-sidebar-shortcuts@0.1.0
 dsh plugin --profile web add github:DEVbyQIN/dsh-sidebar-shortcuts
 ```
 
-如没有出现新设置分区，重新加载界面或重启 DSH。目前提供 GitHub 安装，尚未发布到 npm。
+如没有出现新设置分区，重新加载界面或重启 DSH。npm 与 GitHub 两种安装方式都可用。
 
 ## 预览
 
